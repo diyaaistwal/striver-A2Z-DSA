@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+   //contiguous memory allocation, dynamic size, random access
    vector<int> v;     //initial size 0
    v.push_back(1);   //add values to vectors
    v.push_back(2);
