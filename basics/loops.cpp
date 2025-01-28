@@ -5,12 +5,6 @@ using namespace std;
 int main()
 {
     /*
-    ### **Loops in C++**
-
-Loops allow repetitive execution of a block of code until a condition is met.
-
----
-
     #### **1. `for` Loop**
 - Repeats a block of code a fixed number of times.
 - Ideal for scenarios with a known range of iterations.
