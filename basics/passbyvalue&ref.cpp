@@ -17,6 +17,10 @@ void append_ref(int &num)
 
 int main()
 {
+    /*
+    Value: Changes local to the function.
+    Reference: Changes persist outside the function.
+    */    
     int a;
     cout<<"enter the number";
     cin>>a;
