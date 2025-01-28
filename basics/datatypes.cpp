@@ -19,6 +19,11 @@ int main()
     string s1,s2;
     cin>>s1>>s2;     //if i input two words with a space in between, they will be denoted to both s1 & s2
     cout<<"string one is "<<s1<<" & string two is "<<s2<<endl;
+    
+    string s="diya istwal";
+    int len=s.size();
+    s[len-1]='z';
+    cout<<s;
     */
     
     //string getline
