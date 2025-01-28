@@ -7,13 +7,8 @@ int main()
     cout<<"Hello World"<<"\n";
     cout<<"learn basics of c++"<<endl;
     /*
-    ### **Data Types in C++**
-
-Data types in C++ define the type of data a variable can hold. They are broadly categorized as:
-
----
-
-#### **1. Basic Data Types**
+    Data types in C++ define the type of data a variable can hold. They are broadly categorized as:
+    #### **1. Basic Data Types**
 - **Integer (`int`)**: Stores whole numbers (e.g., `-5`, `0`, `100`).  
 - **Character (`char`)**: Stores a single character (e.g., `'a'`, `'Z'`).  
 - **Floating Point (`float`)**: Stores decimal numbers with single precision (e.g., `3.14`).  
@@ -22,31 +17,31 @@ Data types in C++ define the type of data a variable can hold. They are broadly 
 
 ---
 
-#### **2. Derived Data Types**
+    #### **2. Derived Data Types**
 - **Array**: Collection of elements of the same type.
 - **Pointer**: Stores the address of another variable.
 - **Function**: Refers to blocks of reusable code.
 
 ---
 
-#### **3. Void Type**
+    #### **3. Void Type**
 - **`void`**: Represents no value or return type (e.g., for functions that don’t return anything).
 
 ---
 
-#### **4. User-defined Data Types**
+   #### **4. User-defined Data Types**
 - **Structure (`struct`)**: Combines variables of different types under one name.
 - **Class**: Used in Object-Oriented Programming to define objects.
 - **Enumeration (`enum`)**: Defines a set of named integral constants.
 
 ---
 
-#### **5. Modifiers**
+   #### **5. Modifiers**
 - **`short`, `long`, `signed`, `unsigned`**: Modify basic data types to alter size or range (e.g., `unsigned int`, `long double`).
 
 --- 
 
-### Example Sizes (May vary based on architecture):
+   ### Example Sizes (May vary based on architecture):
 - `int`: 4 bytes  
 - `char`: 1 byte  
 - `float`: 4 bytes  
