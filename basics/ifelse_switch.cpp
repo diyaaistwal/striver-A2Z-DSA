@@ -5,9 +5,7 @@ using namespace std;
 int main()
 {
     /*
-    ### **Control Statements in C++**
-
-    #### **1. `if-else` Statement**
+   #### **1. `if-else` Statement**
 - Executes a block of code based on a condition.
 - If the condition is true, the `if` block runs; otherwise, the `else` block executes.
 - Suitable for scenarios with a few conditions to check.
