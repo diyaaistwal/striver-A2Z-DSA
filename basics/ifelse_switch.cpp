@@ -4,6 +4,20 @@ using namespace std;
 
 int main()
 {
+    /*
+    ### **Control Statements in C++**
+
+    #### **1. `if-else` Statement**
+- Executes a block of code based on a condition.
+- If the condition is true, the `if` block runs; otherwise, the `else` block executes.
+- Suitable for scenarios with a few conditions to check.
+
+   #### **2. `switch` Statement**
+- Used for decision-making with multiple fixed values.
+- Evaluates a variable against different `case` values and executes the corresponding block.
+- Ideal for clean and efficient handling of multiple constant conditions.
+    */
+    
     //if-else-else if
     /*
     int grade;
