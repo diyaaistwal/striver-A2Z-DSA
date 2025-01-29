@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
    queue<int> q;
-   //push,pop,front,back,size,empty; FIFO; no random access
+   //push 0(1),pop 0(1),front 0(1),back,size,empty; FIFO; no random access
    
    q.push(10);
    q.push(20);
