@@ -6,7 +6,7 @@ int main()
 {
    //highest priority element-top, default max-heap, no iterators
    priority_queue<int> pq;
-  //push,emplace,pop,top,size,empty
+  //push 0(logn),emplace,pop 0(logn),top 0(1),size,empty
   
   pq.push(3);
   pq.push(10);
