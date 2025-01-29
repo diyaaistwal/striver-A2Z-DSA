@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    //push,emplace,pop,top,size,empty,swap; LIFO
+    //push 0(1),emplace,pop 0(1),top 0(1),size,empty,swap; LIFO
     stack<int> s;
     s.push(10);
     s.push(20);
