@@ -137,6 +137,7 @@ https://www.geeksforgeeks.org/problems/lcm-and-gcd4516/1
 vector<int> lcmAndGcd(int a, int b) {
         // code here
         int gcd = __gcd(a, b);
+        //LCM(a,b)= ∣a×b∣/GCD(a,b)
         int lcm = (a / gcd) * b;  // Avoids integer overflow
         return {lcm, gcd};
     }
