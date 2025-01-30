@@ -107,8 +107,36 @@ int minJumps(vector<int>& arr) {
             if (current_end >= n - 1) return jumps;
         }
     }
-    
+        
     return -1; // If we can't reach the end of the array
     }
 
-6. 
+6. check palindrome:
+https://leetcode.com/problems/palindrome-number/submissions/1525101108/
+bool isPalindrome(int x) {
+        int n=x;
+        int t;
+        long rev=0;
+        while(n>0)
+        {
+            t=n%10;
+            rev=rev*10+t;
+            n=n/10;
+        }
+        if(rev==x)
+        return true;
+        if(rev>INT_MAX || rev<INT_MIN )
+        return false; 
+        else
+        return false;
+        
+    }
+
+7. lcm and gcd:
+https://www.geeksforgeeks.org/problems/lcm-and-gcd4516/1
+vector<int> lcmAndGcd(int a, int b) {
+        // code here
+        int gcd = __gcd(a, b);
+        int lcm = (a / gcd) * b;  // Avoids integer overflow
+        return {lcm, gcd};
+    }
